@@ -237,18 +237,22 @@ iframe{
 
 
 .servicio-cont{
-    display:flex;
+    width: 100%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .servicio-ind{
     width: 28%;
+    
     text-align: center;
 }
 
-.servicio-ind img{
-    width: 60px;
+.servicio-ind a img{
+    width: 30%;
+    
 }
 
 .servicio-ind h3{
@@ -271,7 +275,7 @@ footer{
 
 .contenedor-footer{
     display: flex;
-    width: 90%;
+    width: 80%;
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
@@ -298,6 +302,10 @@ footer{
 .content-foo a{
     color: rgb(122, 183, 211);
     text-decoration:none;
+}
+
+.content-foo a:hover{
+    text-decoration: underline;
 }
 
 .titulo-final{
