@@ -27,7 +27,7 @@ body {
 
 header {
     width: 100%;
-    height: 700px;
+    height: 380px;
     background: #1f0e1a50;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.541), hsla(0, 0%, 0%, 0.315)), url(../img/portada.jpg);
@@ -44,12 +44,17 @@ nav{
     padding: 30px 50px 0 0;
 }
 
+nav h3{
+    color: #ccc;
+}
+
 nav > a{
     color:#fff;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
 }
+
 
 nav > a:hover{
     text-decoration: underline;
@@ -95,6 +100,7 @@ main .sobre-nosotros{
 
 .imagen-about-us{
     width: 48%;
+    height: 100%;
 }
 
 .sobre-nosotros .contenido-textos{
@@ -103,6 +109,16 @@ main .sobre-nosotros{
 
 .contenido-textos h3{
     margin-bottom: 15px;
+}
+
+.contenido-textos a{
+    text-decoration: none;
+    color: #3b5fac;
+}
+
+.contenido-textos a:hover{
+    text-decoration: underline;
+    color: #acc2f0;
 }
 
 .contenido-textos h3 span{
