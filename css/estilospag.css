@@ -30,36 +30,16 @@ header {
     height: 380px;
     background: #1f0e1a50;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.541), hsla(0, 0%, 0%, 0.315)), url(../img/portada.jpg);
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.541), hsla(0, 0%, 0%, 0.315)), url(../img/LOGO\ FINAL.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.616)), url(../img/portada.jpg);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.616)), url(../img/LOGO\ FINAL.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
 
-nav{
-    text-align: right;
-    padding: 30px 50px 0 0;
-}
 
-nav h3{
-    color: #ccc;
-}
-
-nav > a{
-    color:#fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-
-nav > a:hover{
-    text-decoration: underline;
-    color: #b0b7f8;
-}
 
 header .textos-header{
     display: flex;
@@ -113,11 +93,12 @@ main .sobre-nosotros{
 
 .contenido-textos a{
     text-decoration: none;
-    color: #3b5fac;
+    background-color: #3b5fac;
+    color: #ccc;
 }
 
 .contenido-textos a:hover{
-    text-decoration: underline;
+    background-color: #726d6d;
     color: #acc2f0;
 }
 
@@ -140,11 +121,6 @@ main .sobre-nosotros{
     text-align: justify;
 }
 
-iframe{
-    
-    border: black;
-
-}
 
 .menuemail label{
     float: left;
@@ -276,6 +252,8 @@ iframe{
     text-align: justify;
 }
 
+
+
 /* footer */
 
 footer{
@@ -318,7 +296,7 @@ footer{
 
 .titulo-final{
     text-align: center;
-    font-size: 24px;
+    font-size: 14px;
     margin: 20px 0 0 0;
     color: #9e9797;
 }
@@ -326,6 +304,7 @@ footer{
 @media screen and (max-width:900px){
     header{
         background-position: center;
+        height: 330px;
     }
 
     .contenedor-sobre-nosotros{

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -21,6 +22,7 @@ body {
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.326);
 }
 
 /* Header */
@@ -29,41 +31,26 @@ header {
     width: 100%;
     height: 700px;
     background: #1f0e1a50;
-    /* fallback for old browsers */
+    
     background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.541), hsla(0, 0%, 0%, 0.315)), url(../img/portada.jpg);
-    /* Chrome 10-25, Safari 5.1-6 */
+    
     background: linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.616)), url(../img/portada.jpg);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
 
-nav{
-    text-align: right;
-    padding: 30px 50px 0 0;
-}
-
-nav > a{
-    color:#fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-nav > a:hover{
-    text-decoration: underline;
-    color: #b0b7f8;
-}
 
 header .textos-header{
     display: flex;
-    height: 430px;
+    height: 550px;
     width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    text-shadow: 3px 5px rgba(0, 0, 0, .5);
 }
 
 .textos-header h1{
@@ -83,7 +70,7 @@ header .textos-header{
     width: 100%;
 }
 
-/* About us */
+/* Sobre Nosotros */
 
 main .sobre-nosotros{
     padding: 30px 0 60px 0;
@@ -95,11 +82,13 @@ main .sobre-nosotros{
 
 .imagen-about-us{
     width: 48%;
+    border-radius: 20px;
 }
 
 .sobre-nosotros .contenido-textos{
     width: 48%;
 }
+
 
 .contenido-textos h3{
     margin-bottom: 15px;
@@ -124,9 +113,9 @@ main .sobre-nosotros{
     text-align: justify;
 }
 
-iframe{
+ iframe {
     
-    border: black;
+    border: 1px solid black;
 
 }
 
@@ -191,7 +180,7 @@ iframe{
     transform: scale(1);
 }
 
-/* Clients */
+/* Cards */
 
 .cards{
     display: flex;
@@ -202,7 +191,7 @@ iframe{
     background: #3b5fac;
     display: flex;
     width: 46%;
-    height: 200px;
+    height: 300px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -310,7 +299,7 @@ footer{
 
 .titulo-final{
     text-align: center;
-    font-size: 24px;
+    font-size: 14px;
     margin: 20px 0 0 0;
     color: #9e9797;
 }
@@ -328,6 +317,7 @@ footer{
 
     .sobre-nosotros .contenido-textos{
         width: 90%;
+        margin-top: 50px;
     }
 
     .imagen-about-us{
@@ -404,6 +394,7 @@ footer{
 
     .sobre-nosotros .contenido-textos{
         width: 95%;
+        margin-top: 15px;
     }
 
     /* Galeria */

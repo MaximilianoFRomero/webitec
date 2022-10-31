@@ -1,187 +1,306 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ISFT194 | Inicio</title>
-    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ISFT194 | Inicio</title>
+        <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/carrusel.css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap"
+            rel="stylesheet">
+    </head>
 
-<body>
-    <header>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#autoridades">Autoridades</a>
-            <a href="#carreras">Carreras</a>
-            <a href="pages/docentes.html">Docentes</a>
-            <a href="pages/alumnos.html">Alumnos</a>
-            <a href="#redes">Redes Sociales</a>
-            <a href="pages/pcontacto.html">Contacto</a>
+    <body>
+        <header>
+            <input type="checkbox" name="barramenu" id="barramenu">
+            <label for="barramenu"><img src="img/menu.png" alt=""></label>
+            <nav class="menu">
 
-        </nav>
-        <section class="textos-header">
-            <h1>Instituto Superior de Formación Técnica 194</h1>
 
-        </section>
-        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                style="height: 100%; width: 100%;">
-                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #fff;"></path>
-            </svg></div>
-    </header>
-    <main>
-        <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Elegí Evolucionar</h2>
-            <div class="contenedor-sobre-nosotros">
-                <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
-                <div class="contenido-textos">
-                    <h3><span>1</span>La profesion que buscas</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
-                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
-                        velit doloribus laboriosam ut.</p>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pages/autoridades.html">Autoridades</a>
+                        <ul>
+                            <li><a href="pages/direc.html">Directivos</a></li>
+                            <li><a href="pages/cai.html">CAI</a></li>
+                            <li><a href="pages/coop.html">Cooperadora</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#carreras">Carreras</a>
+                        <ul>
+                            <li><a href="pages/pag1.html">Analista Programador</a></li>
+                            <li><a href="pages/pag2.html">Paleontología</a></li>
+                            <li><a href="pages/pag3.html">Enfermería</a></li>
+                            <li><a href="pages/pag4.html">Turismo</a></li>
+                            <li><a href="pages/pag5.html">Acompañante
+                                    Terapeútico</a></li>
+                            <li><a href="pages/pag6.html">Servicios
+                                    Gastronómicos</a></li>
+                            <li><a href="pages/pag8.html">Industrias
+                                    Agroalimentarias</a></li>
+                            <li><a href="pages/pag7.html">Higiene y Seguridad</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="pages/alumnos.html">Alumnos</a>
+                        <ul>
+                            <li><a href="pages/resolalu.html">Resoluciones</a></li>
+                            <li><a href="pages/constalu.html">Constancias</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="pages/docentes.html">Docentes</a>
+                        <ul>
+                            <li><a href="pages/pagresoldoc.html">Resoluciones</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#redes">Redes Sociales</a></li>
+                    <li><a href="pages/pcontacto.html">Contacto</a></li>
+                    <li><a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSc9gIgQl20eaPcTQ2hayQjvriWjEse9A4RSUTTLtPOfRJJW8Q/viewform?usp=send_form"
+                            target="_blank" class="pre">INSCRIPCIÓN 2023</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="textos-header">
+                <h1>Instituto Superior de Formación Técnica 194</h1>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
-                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
-                        velit doloribus laboriosam ut.</p>
-                </div>
-            </div>
-        </section>
-        <section class="portafolio">
-            <a name="carreras" id="c"></a>
-            <div class="contenedor">
-                <h2 class="titulo">Carreras</h2>
-                <div class="galeria-port">
-                    <div class="imagen-port">
-                        <img src="img/img1.jpeg" alt="">
-                        <div class="hover-galeria">
-                            <a href="pages/pag1.html"><img src="img/icono1.png" alt=""></a>
-                            <p>Analista Programador</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img2.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="pages/pag2.html"><img src="img/icono1.png" alt=""></a>
-                            <p>Paleontología</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img3.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="pages/pag3.html"><img src="img/icono1.png" alt=""></a>
-                            <p>Enfermería</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img4.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="pages/pag4.html"><img src="img/icono1.png" alt=""></a>
-                            <p>Turismo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img5.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="pages/pag5.html"><img src="img/icono1.png" alt=""></a>
-                            <p>Acompañante Terapéutico</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img6.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="pages/pag6.html"><img src="img/icono1.png" alt=""></a>
-                            <p>Servicios Gastronómicos</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img8.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="pages/pag8.html"><img src="img/icono1.png" alt=""></a>
-                            <p>Industrias Agroalimentarias</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img7.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="pages/pag7.html"><img src="img/icono1.png" alt=""></a>
-                            <p>Higiene y Seguridad</p>
-                        </div>
+            </section>
+            <div class="wave" style="height: 150px; overflow: hidden;"><svg
+                    viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00
+                        500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: #fff;"></path>
+                </svg></div>
+        </header>
+        <main>
+            <section class="contenedor sobre-nosotros">
+                <h2 class="titulo">Elegí Evolucionar</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="img/foto instituto.jpg" alt=""
+                        class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <h3>La profesion que buscas</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Deserunt veniam eius aspernatur ad
+                            consequuntur aperiam minima sed dicta odit numquam
+                            sapiente quam eum, architecto animi pariatur,
+                            velit doloribus laboriosam ut.</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Deserunt veniam eius aspernatur ad
+                            consequuntur aperiam minima sed dicta odit numquam
+                            sapiente quam eum, architecto animi pariatur,
+                            velit doloribus laboriosam ut.</p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="clientes contenedor">
-            <a name="autoridades"></a>
-            <h2 class="titulo">Autoridades</h2>
-            <div class="cards">
-                <div class="card">
+            </section>
+            <section class="carrusel">
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <input type="radio" name="radio-btn" id="radio5">
+                        <div class="slide primero">
+                            <img src="img/car1.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="img/car2.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="img/car3.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="img/car4.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="img/car5.jpg" alt="">
+                        </div>
+                        <div class="navegacion">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                            <div class="auto-btn5"></div>
+                        </div>
+                    </div>
+                    <div class="navman">
+                        <label for="radio1" class="man-btn"></label>
+                        <label for="radio2" class="man-btn"></label>
+                        <label for="radio3" class="man-btn"></label>
+                        <label for="radio4" class="man-btn"></label>
+                        <label for="radio5" class="man-btn"></label>
+                    </div>
+                </div>
+            <script type="text/javascript">
+                var counter = 1;
+                setInterval(function(){
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if(counter > 5){
+                        counter = 1;
+                    }
+                }, 4000);
+            </script>        
+            </section>
+            <section class="portafolio">
+                <a name="carreras" id="c"></a>
+                <div class="contenedor">
+                    <h2 class="titulo">Carreras</h2>
+                    <div class="galeria-port">
+                        <div class="imagen-port">
+                            <img src="img/img1-.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="pages/pag1.html"><img
+                                        src="img/icono1.png" alt=""></a>
+                                <p>Analista Programador</p>
+                            </div>
+                        </div>
+                        <div class="imagen-port">
+                            <img src="img/img2-.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="pages/pag2.html"><img
+                                        src="img/icono1.png" alt=""></a>
+                                <p>Paleontología</p>
+                            </div>
+                        </div>
+                        <div class="imagen-port">
+                            <img src="img/img3-.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="pages/pag3.html"><img
+                                        src="img/icono1.png" alt=""></a>
+                                <p>Enfermería</p>
+                            </div>
+                        </div>
+                        <div class="imagen-port">
+                            <img src="img/img4-.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="pages/pag4.html"><img
+                                        src="img/icono1.png" alt=""></a>
+                                <p>Turismo</p>
+                            </div>
+                        </div>
+                        <div class="imagen-port">
+                            <img src="img/img5-.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="pages/pag5.html"><img
+                                        src="img/icono1.png" alt=""></a>
+                                <p>Acompañante Terapéutico</p>
+                            </div>
+                        </div>
+                        <div class="imagen-port">
+                            <img src="img/img6-.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="pages/pag6.html"><img
+                                        src="img/icono1.png" alt=""></a>
+                                <p>Servicios Gastronómicos</p>
+                            </div>
+                        </div>
+                        <div class="imagen-port">
+                            <img src="img/img8-.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="pages/pag8.html"><img
+                                        src="img/icono1.png" alt=""></a>
+                                <p>Industrias Agroalimentarias</p>
+                            </div>
+                        </div>
+                        <div class="imagen-port">
+                            <img src="img/img7-.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="pages/pag7.html"><img
+                                        src="img/icono1.png" alt=""></a>
+                                <p>Higiene y Seguridad</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="clientes contenedor">
+                <a name="autoridades"></a>
+                <h2 class="titulo">Autoridades</h2>
+                <div class="cards">
+                    <div class="card">
 
-                    <div class="contenido-texto-card">
-                        <h4>Soledad Coco</h4>
-                        <p>Directora</p>
+                        <div class="contenido-texto-card">
+                            <h4>COCO María Soledad</h4>
+                            <p>Directora</p>
+                            <p></p>
+                            <h4>RIVAS Leandra</h4>
+                            <p>Secretaria</p>
+                            <p></p>
+                            <h4>VILLABONA Soledad</h4>
+                            <p>Jefa de Área</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
+                    <div class="card">
 
-                    <div class="contenido-texto-card">
-                        <h4>Name</h4>
-                        <p>Lorem ipsum</p>
+                        <div class="contenido-texto-card">
+                            <h4>GULISANO Jorge</h4>
+                            <p>Preceptor Turno Tarde</p>
+                            <p></p>
+                            <h4>SALAZAR Marcelo</h4>
+                            <p>Preceptor Turno Vespertino</p>
+                            <p></p>
+                            <h4>GULISANO Gastón</h4>
+                            <p>Preceptor Turno Vespertino</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
 
-                    <div class="contenido-texto-card">
-                        <h4>Name</h4>
-                        <p>Lorem ipsum</p>
+                </div>
+
+            </section>
+            <section class="about-services">
+                <div class="contenedor">
+                    <a name="redes"></a>
+                    <h2 class="titulo">Redes Sociales</h2>
+                    <div class="servicio-cont">
+                        <div class="servicio-ind">
+                            <a href="https://www.facebook.com/Instituto194"
+                                target="_blank"><img src="img/fb.png"
+                                    alt=""></a>
+                            <h3>Facebook</h3>
+                        </div>
+                        <div class="servicio-ind">
+                            <a href="https://www.instagram.com/isft_194miramar/"
+                                target="_blank"><img src="img/ig.png"
+                                    alt=""></a>
+                            <h3>Instagram</h3>
+                        </div>
+                        <div class="servicio-ind">
+                            <a
+                                href="https://www.youtube.com/channel/UC4z9uKt4NBKRoCmP-3_p1ww"
+                                target="_blank"><img
+                                    src="img/yt.png" alt=""></a>
+                            <h3>Youtube</h3>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="about-services">
-            <div class="contenedor">
-                <a name="redes"></a>
-                <h2 class="titulo">Redes Sociales</h2>
-                <div class="servicio-cont">
-                    <div class="servicio-ind">
-                        <a href="https://www.facebook.com/Instituto194" target="_blank"><img src="img/fb.png"
-                                alt=""></a>
-                        <h3>Facebook</h3>
-                    </div>
-                    <div class="servicio-ind">
-                        <a href="https://www.instagram.com/isft_194miramar/" target="_blank"><img src="img/ig.png"
-                                alt=""></a>
-                        <h3>Instagram</h3>
-                    </div>
-                    <div class="servicio-ind">
-                        <a href="https://www.youtube.com/channel/UC4z9uKt4NBKRoCmP-3_p1ww" target="_blank"><img
-                                src="img/yt.png" alt=""></a>
-                        <h3>Youtube</h3>
-                    </div>
+            </section>
+        </main>
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Teléfono</h4>
+                    <p>(02291) 43-3791</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Email</h4>
+                    <a href="mailto:preceptoria@isft194.edu.ar? subject=subject text">Click Aquí</a>
+                </div>
+                <div class="content-foo">
+                    <h4>Ubicación</h4>
+                    <p>Fortunato de la Plaza 1620</p>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer>
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <h4>Teléfono</h4>
-                <p>(02291) 43-3791</p>
-            </div>
-            <div class="content-foo">
-                <h4>Email</h4>
-                <a href="mailto:preceptoria194miramar@gmail.com? subject=subject text">Click Aqui</a>
-            </div>
-            <div class="content-foo">
-                <h4>Ubicación</h4>
-                <p>Diag. Fortunato de la Plaza esq. 17</p>
-            </div>
-        </div>
-        <h2 class="titulo-final">&copy; Melina Alonso | &copy; Maximiliano Romero</h2>
-    </footer>
-</body>
+            <h2 class="titulo-final">&copy; Melina Alonso | &copy; Maximiliano
+                Romero</h2>
+        </footer>
+    </body>
 
 </html>
